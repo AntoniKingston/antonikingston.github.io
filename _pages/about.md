@@ -5,13 +5,13 @@ permalink: /
 subtitle: Intern @ CCAI
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Rektorska 4</p>
-    <p>Warszawa, Poland/p>
-selected_papers: true # includes a list of papers marked as "selected={true}"
+    <p>Warszawa, Poland</p>
+selected_papers: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -20,13 +20,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Computer Science student at Warsaw University of Technology and a summer intern at [CCAI](https://credibleai.github.io/). I aim to continue working for this institution. I obtained my BSc degree in Data Science at Mathematics and Information Sciences faculty of WUT.
+I am a Computer Science student at [Warsaw University of Technology](https://www.pw.edu.pl/) and a summer intern at [CCAI](https://credibleai.github.io/). I aim to continue working for this institution. I obtained my BSc degree in Data Science at [Mathematics and Information Sciences faculty](https://ww2.mini.pw.edu.pl/) of WUT.
 
-Recently my curiosity has been captured by the field of Model Science, especially interpretability based on representation geometry in LLMs. I believe that a greater focus aimed at XAI is required for our society to deploy newly developed AI solutions in more and more resposible roles. Besides its utility my interest in topics at crossroads of which the field lies (Probability Theory, Differential Geometry, Linear Algebra) is another factor contributing to me holding it in high esteem.
+Recently my curiosity has been captured by the fields of [Model Science](https://arxiv.org/abs/2508.20040) and Explainable AI, especially interpretability based on representation geometry in LLMs. It lies on the crossroads of mathematical domains of my special interest (Probability Theory, Linear Algerba, Differential Geometry). I believe that further research into XAI is essential for the society to maximise benefits and minimise costs of AI acting in more and more roles. 
 
-You can also see what I am up to right now.
+You can also see what I am up to [right now](/now/).
