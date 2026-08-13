@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Junior Researcher @ CCAI
+subtitle: Intern @ CCAI
 
 profile:
   align: left
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Rektorska 4</p>
-    <p>Warszawa, Poland,/p>
+    <p>Warszawa, Poland/p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Computer Science student at Warsaw University of Technology and a summer intern at [CCAI](https://credibleai.github.io/). I aim to continue working for this institution. I obtained my BSc degree in Data Science at Mathematics and Information Sciences faculty of WUT.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Recently my curiosity has been captured by the field of Model Science, especially interpretability based on representation geometry in LLMs. I believe that a greater focus aimed at XAI is required for our society to deploy newly developed AI solutions in more and more resposible roles. Besides its utility my interest in topics at crossroads of which the field lies (Probability Theory, Differential Geometry, Linear Algebra) is another factor contributing to me holding it in high esteem.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can also see what I am up to right now.
