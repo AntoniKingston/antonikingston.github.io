@@ -1,90 +1,115 @@
 cv:
   name: Antoni Kingston
-  label: Computer Science student
-  email: kingstonantoni2003@gmail.com
   location: Warsaw, Poland
-  image: ""
-  summary: Computer Science student at Warsaw University of Technology and intern at CCAI. Interested in model science and interpretability based on representation geometry in LLMs.
-
+  email: kingstonantoni2003@gmail.com
+  photo: img/PL_Dowód_osobisty_afs64w37.jpg
+  phone:
+  website: https://antonikingston.github.io/
   social_networks:
-    - network: GitHub
-      username: antonikingston
     - network: LinkedIn
-      username: antoni-kingston-389814304
-
-  address:
-    city: Warsaw
-    countryCode: PL
-
+      username: antoni-kingston
+    - network: GitHub
+      username: AntoniKingston
+  custom_connections:
   sections:
-    Experience:
-      - company: Accenture
-        position: Data Warehouse Administrator (Internship)
-        location: Warsaw, Poland
-        start_date: 2025-07
-        end_date: 2025-09
-        highlights:
-          - Analyzed long SQL queries to deal with reported inconsistencies in telecommunications DWH
-          - Developed a Django web app for custom ticket management based on the system's API
-          - Got to know the inner workings of DWH operations, especially of the ELT process
-
-    Projects:
-      - name: gipsDA R library
-        summary: An R package for discriminant analysis classification using covariance matrices with permutation symmetries
-        highlights:
-          - A fully functional R library available on CRAN, developed with best programming practices
-          - Enhances the functionality of gips by allowing estimation of permutation symmetry shared by multiple matrices
-          - Offers functions to train Linear and Quadratic Discriminant Analysis classifiers utilizing gips methodology
-
-      - name: Tweet Sentiment Predictor
-        summary: Binary sentiment classification on 100k Sentiment140 tweets via NLP feature engineering and ensemble ML
-        highlights:
-          - Built a three-stage Jupyter pipeline (feature engineering, selection, modeling) on a balanced 100k-tweet corpus with reproducible 5-fold cross-validation
-          - Engineered lexical, readability, temporal, and embedding features using VADER, TextBlob, Word2Vec, Sentence-BERT (all-MiniLM-L6-v2), and spaCy; selected predictors with L1 logistic regression and feature_engine
-          - Tuned and compared XGBoost, LightGBM, voting/stacking ensembles, and a Keras MLP with Optuna, achieving ~81% cross-validated accuracy on the extended feature set
-
-      - name: A Simple GPT model
-        summary: Generative language model training
-        highlights:
-          - Implemented a causal Transformer language model in PyTorch (attention blocks + RMSNorm)
-          - Built a custom BPE tokenizer and corpus-to-encoding pipeline; trained on Adam Mickiewicz works and generated text via generate(...)
-          - In progress: scaling training to the Polish Parliamentary Corpus (PPC)
-
     Education:
-      - institution: MiNI WUT
-        location: Warsaw, Poland
-        area: Computer Science and Information Systems
-        studyType: Master's Studies
+      - institution: Warsaw University of Technology (MiNI Faculty)
+        area: Computer Science
+        degree: MSc
+        date:
         start_date: 2026-02
-        end_date: Present
-        highlights:
-          - Methods of Artificial Intelligence Specialization
-
-      - institution: MiNI WUT
+        end_date: present
         location: Warsaw, Poland
-        area: Data Science and Engineering
-        studyType: Bachelor's Studies
+        summary:
+      - institution: Warsaw University of Technology (MiNI Faculty)
+        area: Data Science
+        degree: BS
+        date:
         start_date: 2022-10
         end_date: 2026-02
-        score: "4.5"
+        location: Warsaw, Poland
+        summary:
         highlights:
-          - Adapting the gips Library for Classification Problem Utilizing Discriminant Analysis (Bachelor's thesis)
-
+          - "[*Adapting the library for classification utilizing discriminant analysis – gipsDA* (Bachelor's Thesis)](https://github.com/AntoniKingston/gipsDAInzynierka)"
+    Experience:
+      - company: Center for Credible Artificial Intelligence
+        position: Research Intern
+        url: https://github.com/CredibleAI/llm-cellular-automata-comprehension
+        date:
+        start_date: 2026-07
+        end_date: 2026-08
+        location: Warsaw, Poland
+        summary:
+        highlights:
+          - "Worked on research subject 'From Actions to Meaning: Do AI Models Build World Models'"
+          - "Created LLM world model building capabilities benchmarking paradigm based on cellular automata comprehension"
+      - company: Accenture
+        position: Data Warehouse Administrator (Internship)
+        date:
+        start_date: 2025-07
+        end_date: 2025-09
+        location: Warsaw, Poland
+        summary:
+        highlights:
+          - Analyzed long SQL queries to deal with reported inconsistencies in telecommunications DWH
+          - "Developed a django web app for custom ticket management based on the system's API"
+          - Got to know the inner workings of DWH operations, especially of ELT process
+    Projects:
+      - name: gipsDA R library
+        url: https://antonikingston.github.io/gipsDA/
+        summary: "*An R package for discriminant analysis classification using covariance matrices with permutation symmetries*"
+        highlights:
+          - "A fully functional R library available on [CRAN](https://cran.r-project.org/web/packages/gipsDA/index.html), developed with best programming practices"
+          - Enhances gips by estimating permutation symmetry shared by multiple matrices
+          - Provides Linear and Quadratic Discriminant Analysis classifiers utilizing gips methodology
+      - name: Tweet Sentiment Predictor
+        url: https://github.com/AdamKaniasty/TweetsSentimentPredictor
+        summary: "*Binary sentiment classification on 100k Sentiment140 tweets via NLP feature engineering and ensemble ML*"
+        highlights:
+          - Built a three-stage Jupyter pipeline for feature engineering, selection, and modeling, with reproducible 5-fold cross-validation
+          - Engineered lexical, readability, temporal, and embedding features using VADER, TextBlob, Word2Vec, Sentence-BERT, and spaCy
+          - Selected predictors with L1 logistic regression and feature_engine; tuned XGBoost, LightGBM, ensembles, and a Keras MLP with Optuna, achieving ~81% cross-validated accuracy
+      - name: A Simple GPT model
+        url: https://github.com/AntoniKingston/A-Simple-GPT-Model
+        summary: "*Generative language model training*"
+        highlights:
+          - Implemented a causal Transformer language model in PyTorch with attention blocks and RMSNorm
+          - Built a custom BPE tokenizer and corpus-to-encoding pipeline; trained on Adam Mickiewicz works and generated text
+          - "In progress: scaling training to the Polish Parliamentary Corpus (PPC)"
     Skills:
-      - name: Technologies
-        keywords: "Python (numpy, pandas, sklearn, pytorch, matplotlib), R, SQL, Bash, basic knowledge of C++, Java and HTML/CSS"
+      - name: Programming Languages
+        keywords:
+          - Python
+          - Java
       - name: Mathematics
-        keywords: "Linear Algebra, Probability Theory, Statistics, Stochastic Processes, Machine Learning, Financial Mathematics, Convex Optimization, Algorithms and Data Structures"
-
-    Languages:
-      - name: Polish
-        summary: Native
-      - name: English
-        summary: C2 (CAE Certificate)
-      - name: German
-        summary: B1
-
-    Certificates:
-      - name: Cambridge English (CAE)
-        issuer: Cambridge Assessment English
-        summary: English C2
+        keywords:
+          - Linear ALgebra
+          - Abstract Algebra
+          - Differential Geometry
+          - Probability Theory
+          - Statistics
+      - name: ML Frameworks
+        keywords:
+          - Pandas
+          - Sklearn
+          - PyTorch
+      - name: Areas of Scientific Interests
+        keywords:
+          - Geometry of Concepts in the Latent Space of AI Models
+      - name: Tools
+        keywords:
+          - bash
+          - git
+          - docker
+          - latex
+          - html
+          - markdown
+      - name: Languages
+        keywords:
+          - Polish (native)
+          - English (C2)
+          - German (B1)
+    Selected Achievements:
+      - bullet: "[Won an episode of '1z10' TV quiz show](https://jedenzdziesieciu.tvp.pl/63916081/1-odcinek-133-edycji-wygral-pan-antoni-kingston)"
+      - bullet: "Official WCA 5BLD solve (3rd place at 2021 Szansa Open)"
+      - bullet: "Cycled 408km in one go in a 24h cycling event"
