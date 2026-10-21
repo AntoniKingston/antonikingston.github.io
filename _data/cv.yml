@@ -76,37 +76,29 @@ cv:
           - "In progress: scaling training to the Polish Parliamentary Corpus (PPC)"
     Skills:
       - name: Programming Languages
-        keywords:
-          - Python
-          - Java
+        keywords: Python, Java
+        label: Programming Languages
+        details: Python, Java
       - name: Mathematics
-        keywords:
-          - Linear ALgebra
-          - Abstract Algebra
-          - Differential Geometry
-          - Probability Theory
-          - Statistics
+        keywords: Linear ALgebra, Abstract Algebra, Differential Geometry, Probability Theory, Statistics
+        label: Mathematics
+        details: Linear ALgebra, Abstract Algebra, Differential Geometry, Probability Theory, Statistics
       - name: ML Frameworks
-        keywords:
-          - Pandas
-          - Sklearn
-          - PyTorch
+        keywords: Pandas, Sklearn, PyTorch
+        label: ML Frameworks
+        details: Pandas, Sklearn, PyTorch
       - name: Areas of Scientific Interests
-        keywords:
-          - Geometry of Concepts in the Latent Space of AI Models
+        keywords: Geometry of Concepts in the Latent Space of AI Models
+        label: Areas of Scientific Interests
+        details: Geometry of Concepts in the Latent Space of AI Models
       - name: Tools
-        keywords:
-          - bash
-          - git
-          - docker
-          - latex
-          - html
-          - markdown
+        keywords: bash, git, docker, latex, html, markdown
+        label: Tools
+        details: bash, git, docker, latex, html, markdown
       - name: Languages
-        keywords:
-          - Polish (native)
-          - English (C2)
-          - German (B1)
+        keywords: Polish (native), English (C2), German (B1)
+        label: Languages
+        details: Polish (native), English (C2), German (B1)
     Selected Achievements:
       - bullet: "[Won an episode of '1z10' TV quiz show](https://jedenzdziesieciu.tvp.pl/63916081/1-odcinek-133-edycji-wygral-pan-antoni-kingston)"
       - bullet: "Official WCA 5BLD solve (3rd place at 2021 Szansa Open)"
